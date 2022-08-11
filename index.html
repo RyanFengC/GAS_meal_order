@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>訂餐統計結果</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+        tr{
+          text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            
+        }
+    </style>
+</head>
+
+<body>
+  <h1><?= getDate() ?></h1>
+  
+  <h2>!!請點選重新整理，以取得最新統計結果</h2>
+  <h2>統計結果:</h2>
+  <? var data = getData(); ?>
+    <table>
+       <? for (var i = 0; i < data[0].length; i++) { ?>
+       <tr>
+         <? for (var j = 0; j < data[0][i].length; j++) { ?>
+     <td>
+       <?= data[0][i][j] ?>
+       </td>
+       <? } ?>
+       </tr>
+        <? } ?>
+    </table>
+    <br>
+  <h2>原始訊息內容:</h2>
+    <table>
+       <? for (var i = 0; i < data[1].length; i++) { ?>
+       <tr>
+         <? for (var j = 0; j < data[1][i].length; j++) { ?>
+     <td>
+       <?= data[1][i][j] ?>
+       </td>
+       <? } ?>
+       </tr>
+        <? } ?>
+    </table>
+</body>
+
+
+</html>
