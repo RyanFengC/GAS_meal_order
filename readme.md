@@ -1,6 +1,6 @@
 # Line bot訂餐統計機器人(使用Google sheet及Google Apps Script(GAS))
 ## 完整版副本
-https://docs.google.com/spreadsheets/d/1oODgSh7SFTzxng-tAO3RBnWLVBalJ8xi9F5l9-nMmro/copy
+https://docs.google.com/spreadsheets/d/13K1l4j2SgYhl6wVF6SxqA3NEm-Dx7_Q7LSMKvUMlxQ4/edit#gid=0/copy
 
 ## 1.緣起:
 本文分享如何使用Google Apps Scripts 搭配 Google sheets 連接 line 做聊天機器人。
