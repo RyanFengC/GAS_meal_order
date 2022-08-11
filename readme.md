@@ -1,6 +1,4 @@
 # Line bot訂餐統計機器人(使用Google sheet及Google Apps Script(GAS))
-## 完整版副本
-https://docs.google.com/spreadsheets/d/13K1l4j2SgYhl6wVF6SxqA3NEm-Dx7_Q7LSMKvUMlxQ4/edit#gid=0/copy
 
 ## 1.緣起:
 本文分享如何使用Google Apps Scripts 搭配 Google sheets 連接 line 做聊天機器人。
@@ -22,10 +20,7 @@ Line developer帳號 、Google Sheet、Google Apps Script(簡稱GAS)
 ## 3.3測試心得:
 在寫程式的過程中由於需要測試所寫之函數功能是否符合需求，但如果要發布告line bot再進行測試將會較麻煩，因此筆者使用的測試方式為，直接指定函式所需資料，接著直接在GAS中執行函式確定函式所要處理之功能沒問題後再將原本直接指定的資料換成由line bot接收到的資料。
 
-## 3.4如何從上述之副本看到程式碼?
-請建立副本後點選擴充功能，接著點選Apps Script就可以看到。
-
-## 3.5本程式使用規定!!
+## 3.4本程式使用規定!!
 一、可使用之指令:
 輸入以下雙引號(" ")內之紅色文字 :
 1. 清除資料庫之資料: "clear","/clear","清空"或"清除"
