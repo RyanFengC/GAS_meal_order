@@ -1,6 +1,6 @@
 # Line bot訂餐統計機器人(使用Google sheet及Google Apps Script(GAS))
-## 完整版副本(歡迎使用)
-https://docs.google.com/spreadsheets/d/1rxEoU0KsKqnPxccOoDR6QYkoMyi8siwX78kQZFLx6lc/copy
+## 完整版副本
+https://docs.google.com/spreadsheets/d/1oODgSh7SFTzxng-tAO3RBnWLVBalJ8xi9F5l9-nMmro/copy
 
 ## 1.緣起:
 本文分享如何使用Google Apps Scripts 搭配 Google sheets 連接 line 做聊天機器人。
@@ -50,7 +50,7 @@ Line developer帳號 、Google Sheet、Google Apps Script(簡稱GAS)
 1. po完餐點資訊後即可輸入"開始"或"加1模式"相關指令，開始進行統計，如未輸入則不會統計。
 2. 一般正常留言並遵守第二節之規則即可，如有違反第二節之規則，則可能會導致統計錯誤。
 3. 結單後輸入列出結果之相關指令即可。
-
+4. 參數貼入![image]()
 
 ## 4.參考資料:
 1. D4- 如何透過 Google Apps Script 來整合 Google Form / Google Sheet 並自動寄出客製的 Email？ - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天 (https://ithelp.ithome.com.tw/articles/10259650)
