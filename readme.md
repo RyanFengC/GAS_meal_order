@@ -1,5 +1,8 @@
 # Line bot訂餐統計機器人(使用Google sheet及Google Apps Script(GAS))
 
+## 0.Google Sheets檔案:
+非商業用途歡迎下載(https://docs.google.com/spreadsheets/d/1ipVVdm_qgPMpaEnzE8vuW1eDJ65FO0NtHZa426_ghoY/copy#gid=0)
+
 ## 1.緣起:
 本文分享如何使用Google Apps Scripts 搭配 Google sheets 連接 line 做聊天機器人。
 會有這製作這個機器人的想法主要是因為，每次訂便當的時候都要一個一個統計不同便當的數量及總金額，需要花費較多時間，因此才有製作這個聊天機器人的想法來解決這個問題。
